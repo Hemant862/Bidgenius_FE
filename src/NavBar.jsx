@@ -15,7 +15,7 @@ function NavBar() {
         </div>
   <h6 className="text text-secondary fs-6 fw-lighter">Opening Hours: 8am-8pm PST M-Th; 6am-3pm PST Fri</h6>
   <div>
-  <NavLink> <button className='btn btn-warning me-1'>Register</button></NavLink>
+  <NavLink> <button className='btn btn-warning me-1' to='/signup'>Register</button></NavLink>
   <NavLink> <button className='btn btn-secondary me-5'>Sign Up</button></NavLink>
 
   </div>
