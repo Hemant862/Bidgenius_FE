@@ -23,32 +23,58 @@ const Register = () => {
 
                                                     <div class="d-flex flex-row align-items-center mb-4">
                                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                                        <div data-mdb-input-init class="form-outline">
+                                                                <input type="text" id="FirstName" class="form-control" />
+                                                                <label class="form-label" for="FirstName">First Name</label>
+                                                            </div>
+                                                            
+
+                                                            <div data-mdb-input-init class="form-outline">
+                                                                <input type="text" id="LastName" class="form-control" />
+                                                                <label class="form-label" for="LastName">Last Name</label>
+                                                            </div>
+
+</div>
                                                         <div data-mdb-input-init class="form-outline flex-fill mb-0">
                                                         <input type="text" id="form3Example1c" class="form-control" />
                                                         <label class="form-label" for="form3Example1c">Your Name</label>
                                                         </div>
-                                                    </div>
-
-                                                    <div class="d-flex flex-row align-items-center mb-4">
-                                                       
-                                                        <label for="adharf" style={{"marginLeft":"5%"}}>AdharCard:</label>
-
-                                                        <input type="file" style={{"marginLeft":"5%"}} id="adharf" name="adharf" accept="image/png, image/jpeg" />
-                                                        
-                                                    </div>
-
-                                                    <div class="d-flex flex-row align-items-center mb-4">
                                                     
-                                                        <label for="passportf" style={{"marginLeft":"5%"}}>Passport:</label>
 
-                                                        <input type="file" style={{"marginLeft":"8.5%"}} id="passportf" name="passportf" accept="image/png, image/jpeg" />
+                                                        <div class="d-flex flex-row align-items-center mb-4">
+                                                        
+                                                            <label for="adharf" style={{"marginLeft":"5%"}}>AdharCard:</label>
+
+                                                            <input type="file" style={{"marginLeft":"5%"}} id="adharf" name="adharf" accept="image/png, image/jpeg" />
+                                                            
+                                                        </div>
+                                                        <div class="d-flex flex-row align-items-center mb-4">
+                                                        
+                                                        <label for="panf" style={{"marginLeft":"5%"}}>PanCard:</label>
+
+                                                        <input type="file" style={{"marginLeft":"5%"}} id="panf" name="panf" accept="image/png, image/jpeg" />
                                                         
                                                     </div>
 
-                                   
-
-                                                    
+                                                        <div class="d-flex flex-row align-items-center mb-4">
                                                         
+                                                            <label for="passportf" style={{"marginLeft":"5%"}}>Passport Front:</label>
+
+                                                            <input type="file" style={{"marginLeft":"8.5%"}} id="passportf" name="passportf" accept="image/png, image/jpeg" />
+                                                            
+                                                        </div>
+
+                                    
+                                                        <div class="d-flex flex-row align-items-center mb-4">
+                                                        
+                                                        <label for="passportb" style={{"marginLeft":"5%"}}>Passport Back:</label>
+
+                                                        <input type="file" style={{"marginLeft":"8.5%"}} id="passportb" name="passportb" accept="image/png, image/jpeg" />
+                                                        
+                                                    </div>
+
+                                                        
+                                                            
                                                     
                                                 <div class="d-flex flex-row align-items-center mb-1">
                                                     <div class="row ">
@@ -71,21 +97,18 @@ const Register = () => {
                                                         </div>
                                                     </div>
 
-                                                    <div class="d-flex flex-row align-items-center mb-4">
-                                                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
-                                                        <div data-mdb-input-init class="form-outline flex-fill mb-0">
-                                                        <input type="password" id="form3Example4c" class="form-control" />
-                                                        <label class="form-label" for="form3Example4c">Password</label>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="d-flex flex-row align-items-center mb-4">
-                                                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                                                        <div data-mdb-input-init class="form-outline flex-fill mb-0">
-                                                        <input type="password" id="form3Example4cd" class="form-control" />
-                                                        <label class="form-label" for="form3Example4cd">Repeat your password</label>
-                                                        </div>
-                                                    </div>
+                                                    <div className="form-outline">
+              <label htmlFor="pincode" className="form-label">Pincode</label>
+              <input
+                type="text"
+                id="pincode"
+                className="form-control"
+          
+              />
+              
+            </div>
+             
+        
 
                                                     <div class="form-check d-flex justify-content-center mb-5">
                                                         <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />

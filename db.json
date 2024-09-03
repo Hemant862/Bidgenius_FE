@@ -1,0 +1,21 @@
+{
+    "admins": [
+      {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "username": "johndoe",
+        "email": "john.doe@example.com",
+        "aadhar_card": "1234-5678-9101",
+        "pan_card": "ABCDE1234F",
+        "passport_front": "passport_front_url",
+        "passport_back": "passport_back_url",
+        "contact_no": "1234567890",
+        "address": "123 Main St",
+        "city": "Metropolis",
+        "pincode": "123456"
+      }
+   
+    ]
+  }
+  

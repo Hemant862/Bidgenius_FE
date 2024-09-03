@@ -15,8 +15,8 @@ function NavBar() {
         </div>
   <h6 className="text text-secondary fs-6 fw-lighter">Opening Hours: 8am-8pm PST M-Th; 6am-3pm PST Fri</h6>
   <div>
-  <NavLink> <button className='btn btn-warning me-1' to='/signup'>Register</button></NavLink>
-  <NavLink> <button className='btn btn-secondary me-5'>Sign Up</button></NavLink>
+  <NavLink to='/Adminregister' > <button className='btn btn-warning me-1' >Register</button></NavLink>
+  <NavLink  to='/Login'> <button className='btn btn-secondary me-5'>Log in</button></NavLink>
 
   </div>
   
@@ -49,10 +49,21 @@ function NavBar() {
             <li className="nav-item">
                 <NavLink className="nav-link active" to="#">Contact Us</NavLink>
             </li>
-            
-            
-            
-            
+            {/* <li className="nav-item">
+                <NavLink className="nav-link active" to="/Adminregister">Admin Registration</NavLink>
+            </li> */}
+            {/* <li className="nav-item">
+                <NavLink className="nav-link active" to="/login">login</NavLink>
+            </li> */}
+            <li className="nav-item">
+                <NavLink className="nav-link active" to="/show">Admin show</NavLink>
+            </li>
+            {/* <li className="nav-item">
+                <NavLink className="nav-link active" to="/Admindash">Admin Dashboard</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link active" to="/Userdash">User Dashboard</NavLink>
+            </li> */}
             </ul>
             <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
